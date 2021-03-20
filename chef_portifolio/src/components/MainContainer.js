@@ -13,7 +13,7 @@ export const Screen = styled.div`
   z-index: 1;
 `
 
-export default function Container(props) {
+export default function MainContainer(props) {
   return (
     <Screen>
         {props.children}

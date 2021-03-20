@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-
+import { goTo } from '../utils/goToFunction'
 const Nav = styled.div`
     position: fixed;
     z-index: 2;
@@ -26,10 +26,13 @@ const LinkButton = styled.a`
         text-decoration:underline;
     }
 `
+
+
 export default function NavBar(props) {
   return (
     <Nav color={props.color}>
-        <LinkButton href="#">About Me</LinkButton>
+        <LinkButton href="#">Home</LinkButton>
+        <LinkButton onClick={()=>goTo('/about')} href="#about">About Me</LinkButton>
         <LinkButton href="#">Work & Education</LinkButton>
         <LinkButton href="#">References</LinkButton>
         <LinkButton href="#">My Work & Gallery</LinkButton>

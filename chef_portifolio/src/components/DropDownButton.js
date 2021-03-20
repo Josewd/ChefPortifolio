@@ -2,6 +2,7 @@ import React from 'react';
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 import styled from 'styled-components';
+import { goTo } from '../utils/goToFunction';
 
 export const Button = styled.a`
     height: 24px;
@@ -29,7 +30,7 @@ export const Button = styled.a`
 
 export default function DropDownButton() {
   return (
-    <Button href='#'>
+    <Button onClick={()=>goTo('/about')} href='#'>
         <ArrowDropDownCircleIcon fontSize='inherit' color='inherit'/>
     </Button>
   );

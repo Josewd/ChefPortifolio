@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/Nav';
 import { Ball } from '../components/BackGroundBall';
-import { Screen } from '../components/MainContainer';
+import MainContainer from '../components/MainContainer';
 import SocialIcons from '../components/SocialIcons';
 import hand from '../assets/chef_junior5.png'
 import chef from '../assets/jose.png'
@@ -14,8 +14,7 @@ import DropDownButton from '../components/DropDownButton';
 export default function HomePage(props) {
 
   return (
-    <Screen>
-        <NavBar color={props.navColor}/>
+    <MainContainer>
         <Ball/>
         <SocialIcons/>
         <PngHolder height='700px'>
@@ -32,7 +31,7 @@ export default function HomePage(props) {
             height='600px' 
             src={chef}/>
         </PngHolder>
-  </Screen>
+  </MainContainer>
 
   );
 }
