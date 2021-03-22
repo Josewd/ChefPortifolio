@@ -10,7 +10,7 @@ export default function AboutMe(props) {
     <MainContainer>
         <BackgroundSquare>
             <Photo image={Image}/>
-            <AboutTextBox title='I am Jose Silva,' description='Experience Chef de Partie, Pastry and Sushi Chef with 10 years experience in both teaching and preparing/presenting food in Ireland and Brazil. My last posiion was as  Pastry Chef in Rustic by Dylan McGrath and now I am looking to expand my skill set in Dublin'/>
+            <AboutTextBox title='I am Jose Silva, ' description='Experience Chef de Partie, Pastry and Sushi Chef with 10 years experience in both teaching and preparing/presenting food in Ireland and Brazil. My last posiion was as  Pastry Chef in Rustic by Dylan McGrath and now I am looking to expand my skill set in Dublin'/>
         </BackgroundSquare>
     </MainContainer>
   );

@@ -11,6 +11,10 @@ export const Screen = styled.div`
   position: relative;
   overflow: hidden;
   z-index: 1;
+  flex-flow: wrap row;
+  @media screen and (max-width: 600px){
+    height: fit-content;
+  }
 `
 
 export default function MainContainer(props) {

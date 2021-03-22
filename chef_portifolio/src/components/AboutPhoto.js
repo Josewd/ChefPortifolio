@@ -15,6 +15,11 @@ export const Container = styled.div`
     box-sizing: border-box;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.92);
     overflow: hidden; 
+    @media screen and (max-width: 600px){
+        margin: 0px;
+        margin-top: 20px;
+        transform: scale(0.6);
+    }
 `;
 
 const Image = styled.img`

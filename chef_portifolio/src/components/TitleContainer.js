@@ -8,6 +8,12 @@ export const TextTitle = styled.div`
         font-family: 'Scope One';
         font-size: 60px;
         color: #372D2D;
+        @media screen and (max-width: 600px){
+          font-size: 40px;
+          width: 300px;
+          height: 45px;
+        }
+        
 `
 
 const Container = styled.div`
@@ -17,6 +23,11 @@ const Container = styled.div`
     width: max-content;
     height: 195px;
     border-bottom: 2px solid #372D2D;
+    @media screen and (max-width: 600px){
+      top: 350px;
+      left: 55px;
+      height: 145px;
+    }
 `
 
 

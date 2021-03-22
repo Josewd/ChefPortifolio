@@ -25,6 +25,13 @@ export const Button = styled.a`
 
     }
 
+    @media screen and (max-width: 600px){
+      position: absolute;
+      bottom: -30px;
+      left: 50vw;
+
+    }
+
 `;
 
 

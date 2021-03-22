@@ -2,6 +2,7 @@ export const goTo = (element)=>{
     const height = 702.5
     switch (element) {
       case '/about':
+        document.scrollingElement.scrollTop = 0
         document.scrollingElement.scrollBy({
           top: height+50,
           left: 0,
@@ -9,13 +10,15 @@ export const goTo = (element)=>{
         }) 
         break;
       case '/work_education':
+        document.scrollingElement.scrollTop = 0
         document.scrollingElement.scrollBy({
-          top: height*2,
+          top: height*2 + 70,
           left: 0,
           behavior: 'smooth'
         }) 
         break;
       case '/work_gallery':
+        document.scrollingElement.scrollTop = 0
         document.scrollingElement.scrollBy({
           top: height*3,
           left: 0,
