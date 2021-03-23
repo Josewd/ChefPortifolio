@@ -15,7 +15,7 @@ const Container = styled.div`
     width: 38px;
     height: 266px;
     right: 30px;
-    top: 170px;
+    top: 20vh;
     background: #372D2D;
     @media screen and (max-width: 600px){
       left: unset;

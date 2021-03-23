@@ -7,7 +7,7 @@ export const Ball = styled.div`
     height: 150vh;
     border-radius: 50%;
     right: -60vh;
-    top: -483px;
+    top: -70vh;
     background: #372D2D;
     @media screen and (max-width: 600px){
       left: 100px;
