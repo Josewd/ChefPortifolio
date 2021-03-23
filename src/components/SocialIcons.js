@@ -14,8 +14,8 @@ const Container = styled.div`
     justify-content: space-evenly;
     width: 38px;
     height: 266px;
-    left: 1302px;
-    top: 167px;
+    right: 30px;
+    top: 170px;
     background: #372D2D;
     @media screen and (max-width: 600px){
       left: unset;
