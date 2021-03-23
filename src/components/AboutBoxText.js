@@ -33,8 +33,8 @@ const Title = styled.div`
 `
 export const PageTitle = styled.div`
     position: absolute;
-    top: 65px;
-    left: 40px;
+    top: 8vh;
+    left: 3vw;
     font-size: 30px;
     width: 300px;
     padding-left: 10px;
