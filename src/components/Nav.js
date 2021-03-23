@@ -53,11 +53,11 @@ export default function NavBar(props) {
   console.log(props)
   return (
     <Nav color={props.color} play={props.showNavBar? props.showNavBar: 'paused'}>
-        <LinkButton href="#">Home</LinkButton>
+        <LinkButton onClick={()=>goTo('/')} href="#">Home</LinkButton>
         <LinkButton onClick={()=>goTo('/about')} href="#about">About Me</LinkButton>
         <LinkButton onClick={()=>goTo('/work_education')} href="#work_education">Work & Education</LinkButton>
-        <LinkButton href="#">References</LinkButton>
-        <LinkButton href="#">My Work & Gallery</LinkButton>
+        {/* <LinkButton  href="#gallery">References</LinkButton> */}
+        <LinkButton onClick={()=>goTo('/work_gallery')} href="#gallery">My Work & Gallery</LinkButton>
     </Nav>
   );
 }

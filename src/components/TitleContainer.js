@@ -24,8 +24,8 @@ const Container = styled.div`
     height: 195px;
     border-bottom: 2px solid #372D2D;
     @media screen and (max-width: 600px){
-      top: 350px;
-      left: 55px;
+      top: 50px;
+      left: 35px;
       height: 145px;
     }
 `

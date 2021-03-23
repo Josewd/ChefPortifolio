@@ -8,7 +8,9 @@ export const ImageContainer = styled.img`
     margin: 5px;
     @media screen and (max-width: 600px){
       width: 350px;
-      height: 100vh;
+      height: 80vh;
+      margin-top: 20vh;
+      margin-left: -50px;
     }
 `
 

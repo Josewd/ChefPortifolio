@@ -10,7 +10,11 @@ z-index: 2;
     overflow: hidden;
     margin-inline: 84px;
     @media screen and (max-width: 600px){
-    display: none;
+    
+    width: 90vw;
+    height: 100vh;
+    overflow: unset;
+    margin-inline: 0px;
    
   }
 `
@@ -22,6 +26,7 @@ z-index: 2;
     overflow: hidden;
     margin-inline: 84px;
     @media screen and (max-width: 600px){
+    display: none;
     width: 90vw;
     height: 100vh;
     overflow: unset;

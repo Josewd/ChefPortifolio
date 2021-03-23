@@ -9,8 +9,11 @@ export const Ball = styled.div`
     left: 651px;
     top: -483px;
     background: #372D2D;
-    @media screen and (max-widht: 600px){
-      display: none;
+    @media screen and (max-width: 600px){
+      left: 100px;
+      top:50vh;
+      width: 550px;
+      height: 550px;
   }
 `;
 
