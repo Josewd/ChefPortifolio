@@ -8,7 +8,7 @@ export const Square = styled.div`
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 80%;
+    width: 80vw;
     background-color: #372D2D;
     @media screen and (max-width: 600px){
       width: 100vw;

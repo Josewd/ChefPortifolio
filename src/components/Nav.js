@@ -18,7 +18,7 @@ const Nav = styled.div`
     background-color: ${props=> props.color? props.color: 'transparent'};
     align-items: center;
     justify-content: flex-end;
-    height: 70px;
+    height: 10vh;
     width: 100vw;
     @media screen and (max-width: 600px){
     width: 80vw;

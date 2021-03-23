@@ -6,28 +6,27 @@ import WorkField from '../components/WorkField';
 export const LeftContainer = styled.div`
     width: max-content;
     height: 70vh;
-    margin-left: 84px;
+    margin-left: 5vw;
     background-color: #f3f3f3;
     padding:20px;
     border-radius: 5px;
     align-self: center;
     margin-top: 150px;
-    @media screen and (max-width: 600px){
-      margin: auto;
+    @media screen and (max-width: 800px){
+     margin: auto;
       height: max-content;
-      margin-bottom: 00px;
     }
 `
 export const RightContainer = styled.div`
      width: max-content;
     height: 70vh;
-    margin-right: 84px;
+    margin-right: 5vw;
     background-color: #f3f3f3;
     padding:20px;
     border-radius: 5px;
     align-self: center;
     margin-top: 150px;
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 800px){
       margin: auto;
       height: max-content;
   
